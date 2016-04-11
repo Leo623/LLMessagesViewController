@@ -6,8 +6,8 @@
 //  Copyright © 2016年 ruofei. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "LLMessagesCollectionViewCell.h"
 
-@interface LLMessagesCollectionViewCellIncoming : UICollectionViewCell
+@interface LLMessagesCollectionViewCellIncoming : LLMessagesCollectionViewCell
 
 @end

@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class LLMessagesCollectionView;
+
 @interface LLMessagesCollectionViewFlowLayout : UICollectionViewFlowLayout
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wincompatible-property-type"
+@property (readonly, nonatomic) LLMessagesCollectionView *collectionView;
+#pragma clang diagnostic pop
 
 @end

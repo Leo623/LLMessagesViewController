@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-#import "LLMessagesCollectionViewCellIncoming.h"
-#import "LLMessagesCollectionViewCellOutgoing.h"
-
 @interface LLMessagesCollectionViewCell : UICollectionViewCell
 
 + (NSString *)cellReuseIdentifier;

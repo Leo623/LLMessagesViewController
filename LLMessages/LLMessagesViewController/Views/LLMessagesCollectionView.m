@@ -8,6 +8,10 @@
 
 #import "LLMessagesCollectionView.h"
 
+#import "LLMessagesCollectionViewFlowLayout.h"
+#import "LLMessagesCollectionViewCellIncoming.h"
+#import "LLMessagesCollectionViewCellOutgoing.h"
+
 @interface LLMessagesCollectionView ()
 - (void)ll_configureCollectionView;
 @end

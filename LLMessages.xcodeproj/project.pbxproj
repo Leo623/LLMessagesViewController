@@ -39,6 +39,10 @@
 		7981013E1CBB53FC00168114 /* LLMessagesCollectionViewCellOutgoing.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7981013C1CBB53FC00168114 /* LLMessagesCollectionViewCellOutgoing.xib */; };
 		798101411CBB69E500168114 /* LLMessagesCollectionViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 798101401CBB69E500168114 /* LLMessagesCollectionViewLayoutAttributes.m */; };
 		798101441CBB6A3700168114 /* LLMessagesCollectionViewFlowLayoutInvalidationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 798101431CBB6A3700168114 /* LLMessagesCollectionViewFlowLayoutInvalidationContext.m */; };
+		E30E3EEF1CBBE2120085264A /* LLMessagesBubblesSizeCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E3EEE1CBBE2120085264A /* LLMessagesBubblesSizeCalculator.m */; };
+		E30E3EF61CBBE9400085264A /* LLMessagesAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E30E3EF51CBBE9400085264A /* LLMessagesAssets.bundle */; };
+		E30E3EFA1CBBFE6E0085264A /* NSBundle+LLMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E3EF91CBBFE6E0085264A /* NSBundle+LLMessages.m */; };
+		E30E3EFD1CBC00DD0085264A /* NSString+LLMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E3EFC1CBC00DD0085264A /* NSString+LLMessages.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -102,6 +106,14 @@
 		798101401CBB69E500168114 /* LLMessagesCollectionViewLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMessagesCollectionViewLayoutAttributes.m; sourceTree = "<group>"; };
 		798101421CBB6A3700168114 /* LLMessagesCollectionViewFlowLayoutInvalidationContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMessagesCollectionViewFlowLayoutInvalidationContext.h; sourceTree = "<group>"; };
 		798101431CBB6A3700168114 /* LLMessagesCollectionViewFlowLayoutInvalidationContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMessagesCollectionViewFlowLayoutInvalidationContext.m; sourceTree = "<group>"; };
+		E30E3EED1CBBE2120085264A /* LLMessagesBubblesSizeCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMessagesBubblesSizeCalculator.h; sourceTree = "<group>"; };
+		E30E3EEE1CBBE2120085264A /* LLMessagesBubblesSizeCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMessagesBubblesSizeCalculator.m; sourceTree = "<group>"; };
+		E30E3EF01CBBE2420085264A /* LLMessagesBubblesSizeCalculating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMessagesBubblesSizeCalculating.h; sourceTree = "<group>"; };
+		E30E3EF51CBBE9400085264A /* LLMessagesAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LLMessagesAssets.bundle; sourceTree = "<group>"; };
+		E30E3EF81CBBFE6E0085264A /* NSBundle+LLMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+LLMessages.h"; sourceTree = "<group>"; };
+		E30E3EF91CBBFE6E0085264A /* NSBundle+LLMessages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+LLMessages.m"; sourceTree = "<group>"; };
+		E30E3EFB1CBC00DD0085264A /* NSString+LLMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LLMessages.h"; sourceTree = "<group>"; };
+		E30E3EFC1CBC00DD0085264A /* NSString+LLMessages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LLMessages.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,43 +175,13 @@
 			isa = PBXGroup;
 			children = (
 				798100F21CBB43A400168114 /* Keyboard */,
-				798100EA1CBB42FA00168114 /* Assets */,
-				798100EB1CBB42FA00168114 /* Categories */,
-				798100EC1CBB42FA00168114 /* Controller */,
-				798100ED1CBB42FA00168114 /* Factorys */,
+				E30E3EF41CBBE91F0085264A /* Assets */,
+				E30E3EF71CBBFE420085264A /* Categories */,
 				798100EE1CBB42FA00168114 /* Layout */,
 				798100EF1CBB42FA00168114 /* Model */,
 				798100F01CBB42FA00168114 /* Views */,
 			);
 			path = LLMessagesViewController;
-			sourceTree = "<group>";
-		};
-		798100EA1CBB42FA00168114 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		798100EB1CBB42FA00168114 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		798100EC1CBB42FA00168114 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		798100ED1CBB42FA00168114 /* Factorys */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Factorys;
 			sourceTree = "<group>";
 		};
 		798100EE1CBB42FA00168114 /* Layout */ = {
@@ -211,6 +193,9 @@
 				798101401CBB69E500168114 /* LLMessagesCollectionViewLayoutAttributes.m */,
 				798101421CBB6A3700168114 /* LLMessagesCollectionViewFlowLayoutInvalidationContext.h */,
 				798101431CBB6A3700168114 /* LLMessagesCollectionViewFlowLayoutInvalidationContext.m */,
+				E30E3EF01CBBE2420085264A /* LLMessagesBubblesSizeCalculating.h */,
+				E30E3EED1CBBE2120085264A /* LLMessagesBubblesSizeCalculator.h */,
+				E30E3EEE1CBBE2120085264A /* LLMessagesBubblesSizeCalculator.m */,
 			);
 			path = Layout;
 			sourceTree = "<group>";
@@ -317,6 +302,25 @@
 			path = ToolBarPanel;
 			sourceTree = "<group>";
 		};
+		E30E3EF41CBBE91F0085264A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E30E3EF51CBBE9400085264A /* LLMessagesAssets.bundle */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E30E3EF71CBBFE420085264A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E30E3EF81CBBFE6E0085264A /* NSBundle+LLMessages.h */,
+				E30E3EF91CBBFE6E0085264A /* NSBundle+LLMessages.m */,
+				E30E3EFB1CBC00DD0085264A /* NSString+LLMessages.h */,
+				E30E3EFC1CBC00DD0085264A /* NSString+LLMessages.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -377,6 +381,7 @@
 			files = (
 				798100E21CBB421300168114 /* LaunchScreen.storyboard in Resources */,
 				798100DF1CBB421300168114 /* Assets.xcassets in Resources */,
+				E30E3EF61CBBE9400085264A /* LLMessagesAssets.bundle in Resources */,
 				798101261CBB43F300168114 /* emotion.plist in Resources */,
 				798101271CBB43F300168114 /* face.plist in Resources */,
 				7981013E1CBB53FC00168114 /* LLMessagesCollectionViewCellOutgoing.xib in Resources */,
@@ -396,7 +401,9 @@
 				798101341CBB538500168114 /* LLMessagesCollectionViewCell.m in Sources */,
 				798100DA1CBB421300168114 /* ViewController.m in Sources */,
 				798101441CBB6A3700168114 /* LLMessagesCollectionViewFlowLayoutInvalidationContext.m in Sources */,
+				E30E3EFD1CBC00DD0085264A /* NSString+LLMessages.m in Sources */,
 				7981011C1CBB43A400168114 /* FaceThemeView.m in Sources */,
+				E30E3EEF1CBBE2120085264A /* LLMessagesBubblesSizeCalculator.m in Sources */,
 				7981012B1CBB463C00168114 /* LLMessagesCollectionView.m in Sources */,
 				798100D71CBB421300168114 /* AppDelegate.m in Sources */,
 				798101221CBB43A400168114 /* RFTextView.m in Sources */,
@@ -410,6 +417,7 @@
 				798101161CBB43A400168114 /* ChatToolBarItem.m in Sources */,
 				798101411CBB69E500168114 /* LLMessagesCollectionViewLayoutAttributes.m in Sources */,
 				7981011D1CBB43A400168114 /* PanelBottomView.m in Sources */,
+				E30E3EFA1CBBFE6E0085264A /* NSBundle+LLMessages.m in Sources */,
 				798101171CBB43A400168114 /* FaceThemeModel.m in Sources */,
 				7981011E1CBB43A400168114 /* MorePanel.m in Sources */,
 				798101381CBB53BA00168114 /* LLMessagesCollectionViewCellIncoming.m in Sources */,
@@ -567,6 +575,7 @@
 				798100E81CBB421300168114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,4 +10,9 @@
 
 @interface LLMessagesCollectionViewFlowLayoutInvalidationContext : UICollectionViewFlowLayoutInvalidationContext
 
+@property (nonatomic, assign) BOOL invalidateFlowLayoutMessagesCache;
+
+
++ (instancetype)context;
+
 @end

@@ -35,7 +35,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
     LLMessagesCollectionViewFlowLayout *flowLayout = [[LLMessagesCollectionViewFlowLayout alloc] init];
     _collectionView = [[LLMessagesCollectionView alloc] initWithFrame:CGRectMake(0, 0, KSCREENWIDTH, KSCREENHEIGHT-49) collectionViewLayout:flowLayout];
     _collectionView.delegate = self;

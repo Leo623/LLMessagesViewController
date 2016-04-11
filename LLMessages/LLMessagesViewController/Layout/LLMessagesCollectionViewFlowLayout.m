@@ -13,6 +13,8 @@
 
 @implementation LLMessagesCollectionViewFlowLayout
 
+@dynamic collectionView;
+
 #pragma mark -- Initialization
 
 - (void)ll_configureFlowLayout
