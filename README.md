@@ -1,0 +1,3 @@
+# LLMessagesViewController
+用于快速构建聊天消息界面
+参考 JSQMessagesViewController
