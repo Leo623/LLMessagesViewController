@@ -51,4 +51,35 @@
     return [self initWithCache:cache minimumBubbleWidth:20 usesFixedWidthBubbles:NO];
 }
 
+#pragma mark -- NSObject
+- (NSString *)description
+{
+    return [NSString stringWithFormat:@"<%@: cache=%@, minimumBubbleWidth=%@ usesFixedWidthBubbles=%@>",[self class], self.cache, @(self.minimumBubbleWidth), @(self.usesFixedWidthBubbles)];
+}
+
+#pragma mark -- LLMessagesBubbleSizeCalculating
+
+- (void)prepareForResettingLayout:(LLMessagesCollectionViewFlowLayout *)layout
+{
+    [self.cache removeAllObjects];
+}
+
+
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

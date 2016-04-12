@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 /**
- *  一个模型，专门用来管理布局属性的
+ *  布局属性是专门应用到cell上面的
  */
 @interface LLMessagesCollectionViewLayoutAttributes : UICollectionViewLayoutAttributes <NSCopying>
 

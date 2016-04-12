@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		790EE2831CBCF86700331F04 /* LLMessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EE2821CBCF86700331F04 /* LLMessagesViewController.m */; };
+		790EE2891CBCF9CE00331F04 /* LLMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EE2881CBCF9CE00331F04 /* LLMessage.m */; };
+		790EE28C1CBCF9DE00331F04 /* LLMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EE28B1CBCF9DE00331F04 /* LLMediaItem.m */; };
+		790EE28F1CBCF9F700331F04 /* LLPhotoMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EE28E1CBCF9F700331F04 /* LLPhotoMediaItem.m */; };
+		790EE2921CBCFA0B00331F04 /* LLVideoMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EE2911CBCFA0B00331F04 /* LLVideoMediaItem.m */; };
+		790EE2951CBCFA1B00331F04 /* LLLocationMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EE2941CBCFA1B00331F04 /* LLLocationMediaItem.m */; };
+		790EE2981CBCFA3500331F04 /* LLAudioMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EE2971CBCFA3500331F04 /* LLAudioMediaItem.m */; };
+		790EE29D1CBCFB6400331F04 /* LLMessagesAvatarImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EE29C1CBCFB6400331F04 /* LLMessagesAvatarImage.m */; };
+		790EE2A01CBCFB8E00331F04 /* LLMessagesBubbleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EE29F1CBCFB8E00331F04 /* LLMessagesBubbleImage.m */; };
+		790EE2A31CBCFD8B00331F04 /* LLMessagesMediaPlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EE2A21CBCFD8B00331F04 /* LLMessagesMediaPlaceholderView.m */; };
 		798100D41CBB421300168114 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 798100D31CBB421300168114 /* main.m */; };
 		798100D71CBB421300168114 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 798100D61CBB421300168114 /* AppDelegate.m */; };
 		798100DA1CBB421300168114 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798100D91CBB421300168114 /* ViewController.m */; };
@@ -46,6 +56,30 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		790EE2811CBCF86700331F04 /* LLMessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMessagesViewController.h; sourceTree = "<group>"; };
+		790EE2821CBCF86700331F04 /* LLMessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMessagesViewController.m; sourceTree = "<group>"; };
+		790EE2851CBCF8E700331F04 /* LLMessageMediaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMessageMediaData.h; sourceTree = "<group>"; };
+		790EE2861CBCF90000331F04 /* LLMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMessageData.h; sourceTree = "<group>"; };
+		790EE2871CBCF9CE00331F04 /* LLMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMessage.h; sourceTree = "<group>"; };
+		790EE2881CBCF9CE00331F04 /* LLMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMessage.m; sourceTree = "<group>"; };
+		790EE28A1CBCF9DE00331F04 /* LLMediaItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMediaItem.h; sourceTree = "<group>"; };
+		790EE28B1CBCF9DE00331F04 /* LLMediaItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMediaItem.m; sourceTree = "<group>"; };
+		790EE28D1CBCF9F700331F04 /* LLPhotoMediaItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPhotoMediaItem.h; sourceTree = "<group>"; };
+		790EE28E1CBCF9F700331F04 /* LLPhotoMediaItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPhotoMediaItem.m; sourceTree = "<group>"; };
+		790EE2901CBCFA0B00331F04 /* LLVideoMediaItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLVideoMediaItem.h; sourceTree = "<group>"; };
+		790EE2911CBCFA0B00331F04 /* LLVideoMediaItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLVideoMediaItem.m; sourceTree = "<group>"; };
+		790EE2931CBCFA1B00331F04 /* LLLocationMediaItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLocationMediaItem.h; sourceTree = "<group>"; };
+		790EE2941CBCFA1B00331F04 /* LLLocationMediaItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLocationMediaItem.m; sourceTree = "<group>"; };
+		790EE2961CBCFA3500331F04 /* LLAudioMediaItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAudioMediaItem.h; sourceTree = "<group>"; };
+		790EE2971CBCFA3500331F04 /* LLAudioMediaItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAudioMediaItem.m; sourceTree = "<group>"; };
+		790EE2991CBCFA9500331F04 /* LLMessageAvatarImageDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLMessageAvatarImageDataSource.h; sourceTree = "<group>"; };
+		790EE29A1CBCFAB500331F04 /* LLMessageBubbleImageDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMessageBubbleImageDataSource.h; sourceTree = "<group>"; };
+		790EE29B1CBCFB6400331F04 /* LLMessagesAvatarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMessagesAvatarImage.h; sourceTree = "<group>"; };
+		790EE29C1CBCFB6400331F04 /* LLMessagesAvatarImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMessagesAvatarImage.m; sourceTree = "<group>"; };
+		790EE29E1CBCFB8E00331F04 /* LLMessagesBubbleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMessagesBubbleImage.h; sourceTree = "<group>"; };
+		790EE29F1CBCFB8E00331F04 /* LLMessagesBubbleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMessagesBubbleImage.m; sourceTree = "<group>"; };
+		790EE2A11CBCFD8B00331F04 /* LLMessagesMediaPlaceholderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMessagesMediaPlaceholderView.h; sourceTree = "<group>"; };
+		790EE2A21CBCFD8B00331F04 /* LLMessagesMediaPlaceholderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMessagesMediaPlaceholderView.m; sourceTree = "<group>"; };
 		798100CF1CBB421300168114 /* LLMessages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLMessages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		798100D31CBB421300168114 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		798100D51CBB421300168114 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -127,6 +161,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		790EE2801CBCF84600331F04 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				790EE2811CBCF86700331F04 /* LLMessagesViewController.h */,
+				790EE2821CBCF86700331F04 /* LLMessagesViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		798100C61CBB421300168114 = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +219,7 @@
 			children = (
 				798100F21CBB43A400168114 /* Keyboard */,
 				E30E3EF41CBBE91F0085264A /* Assets */,
+				790EE2801CBCF84600331F04 /* Controller */,
 				E30E3EF71CBBFE420085264A /* Categories */,
 				798100EE1CBB42FA00168114 /* Layout */,
 				798100EF1CBB42FA00168114 /* Model */,
@@ -203,8 +247,28 @@
 		798100EF1CBB42FA00168114 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				790EE29A1CBCFAB500331F04 /* LLMessageBubbleImageDataSource.h */,
+				790EE2991CBCFA9500331F04 /* LLMessageAvatarImageDataSource.h */,
 				7981012F1CBB50CC00168114 /* LLMessagesCollectionViewDataSource.h */,
 				798101311CBB517700168114 /* LLMessagesCollectionViewDelegateFlowLayout.h */,
+				790EE2861CBCF90000331F04 /* LLMessageData.h */,
+				790EE2851CBCF8E700331F04 /* LLMessageMediaData.h */,
+				790EE2871CBCF9CE00331F04 /* LLMessage.h */,
+				790EE2881CBCF9CE00331F04 /* LLMessage.m */,
+				790EE28A1CBCF9DE00331F04 /* LLMediaItem.h */,
+				790EE28B1CBCF9DE00331F04 /* LLMediaItem.m */,
+				790EE28D1CBCF9F700331F04 /* LLPhotoMediaItem.h */,
+				790EE28E1CBCF9F700331F04 /* LLPhotoMediaItem.m */,
+				790EE2901CBCFA0B00331F04 /* LLVideoMediaItem.h */,
+				790EE2911CBCFA0B00331F04 /* LLVideoMediaItem.m */,
+				790EE2931CBCFA1B00331F04 /* LLLocationMediaItem.h */,
+				790EE2941CBCFA1B00331F04 /* LLLocationMediaItem.m */,
+				790EE2961CBCFA3500331F04 /* LLAudioMediaItem.h */,
+				790EE2971CBCFA3500331F04 /* LLAudioMediaItem.m */,
+				790EE29B1CBCFB6400331F04 /* LLMessagesAvatarImage.h */,
+				790EE29C1CBCFB6400331F04 /* LLMessagesAvatarImage.m */,
+				790EE29E1CBCFB8E00331F04 /* LLMessagesBubbleImage.h */,
+				790EE29F1CBCFB8E00331F04 /* LLMessagesBubbleImage.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -222,6 +286,8 @@
 				7981013A1CBB53FC00168114 /* LLMessagesCollectionViewCellOutgoing.h */,
 				7981013B1CBB53FC00168114 /* LLMessagesCollectionViewCellOutgoing.m */,
 				7981013C1CBB53FC00168114 /* LLMessagesCollectionViewCellOutgoing.xib */,
+				790EE2A11CBCFD8B00331F04 /* LLMessagesMediaPlaceholderView.h */,
+				790EE2A21CBCFD8B00331F04 /* LLMessagesMediaPlaceholderView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -398,19 +464,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				790EE2981CBCFA3500331F04 /* LLAudioMediaItem.m in Sources */,
 				798101341CBB538500168114 /* LLMessagesCollectionViewCell.m in Sources */,
 				798100DA1CBB421300168114 /* ViewController.m in Sources */,
+				790EE28F1CBCF9F700331F04 /* LLPhotoMediaItem.m in Sources */,
+				790EE29D1CBCFB6400331F04 /* LLMessagesAvatarImage.m in Sources */,
 				798101441CBB6A3700168114 /* LLMessagesCollectionViewFlowLayoutInvalidationContext.m in Sources */,
 				E30E3EFD1CBC00DD0085264A /* NSString+LLMessages.m in Sources */,
 				7981011C1CBB43A400168114 /* FaceThemeView.m in Sources */,
 				E30E3EEF1CBBE2120085264A /* LLMessagesBubblesSizeCalculator.m in Sources */,
 				7981012B1CBB463C00168114 /* LLMessagesCollectionView.m in Sources */,
 				798100D71CBB421300168114 /* AppDelegate.m in Sources */,
+				790EE2831CBCF86700331F04 /* LLMessagesViewController.m in Sources */,
+				790EE2891CBCF9CE00331F04 /* LLMessage.m in Sources */,
+				790EE2921CBCFA0B00331F04 /* LLVideoMediaItem.m in Sources */,
 				798101221CBB43A400168114 /* RFTextView.m in Sources */,
 				7981013D1CBB53FC00168114 /* LLMessagesCollectionViewCellOutgoing.m in Sources */,
+				790EE2951CBCFA1B00331F04 /* LLLocationMediaItem.m in Sources */,
 				798101201CBB43A400168114 /* OfficialAccountToolbar.m in Sources */,
 				7981011A1CBB43A400168114 /* FacePageView.m in Sources */,
 				7981011B1CBB43A400168114 /* FacePanel.m in Sources */,
+				790EE28C1CBCF9DE00331F04 /* LLMediaItem.m in Sources */,
 				798101191CBB43A400168114 /* FaceButton.m in Sources */,
 				798101151CBB43A400168114 /* ChatKeyBoard.m in Sources */,
 				7981011F1CBB43A400168114 /* ChatToolBar.m in Sources */,
@@ -419,10 +493,12 @@
 				7981011D1CBB43A400168114 /* PanelBottomView.m in Sources */,
 				E30E3EFA1CBBFE6E0085264A /* NSBundle+LLMessages.m in Sources */,
 				798101171CBB43A400168114 /* FaceThemeModel.m in Sources */,
+				790EE2A01CBCFB8E00331F04 /* LLMessagesBubbleImage.m in Sources */,
 				7981011E1CBB43A400168114 /* MorePanel.m in Sources */,
 				798101381CBB53BA00168114 /* LLMessagesCollectionViewCellIncoming.m in Sources */,
 				7981012E1CBB4E8500168114 /* LLMessagesCollectionViewFlowLayout.m in Sources */,
 				798101181CBB43A400168114 /* MoreItem.m in Sources */,
+				790EE2A31CBCFD8B00331F04 /* LLMessagesMediaPlaceholderView.m in Sources */,
 				798101211CBB43A400168114 /* RFRecordButton.m in Sources */,
 				798100D41CBB421300168114 /* main.m in Sources */,
 			);
